@@ -54,3 +54,15 @@ def main() -> None:
 
         if choice == "1":
             add_task_cli()
+        elif choice == "2":
+            view_all_tasks_cli()
+        elif choice == "3":
+            update_task_status_cli()
+        elif choice == "4":
+            delete_task_cli()
+        elif choice == "5":
+            print("Exit")
+            break
+
+
+main()
